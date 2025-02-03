@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "IceBreaker5",
+			"Path": "..\\Source\\IceBreaker5.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "IceBreaker5Editor",
+			"Path": "..\\Source\\IceBreaker5Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

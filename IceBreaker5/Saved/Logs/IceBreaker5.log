@@ -1665,3 +1665,281 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.02.03-03.27.24:025][139]LogFab: Display: User logged in
 [2025.02.03-03.27.24:025][139]LogFab: Display: User client id: xyza7891REBVsEqSJRRNXmlS7EQHM459
 [2025.02.03-03.27.24:691][141]LogEOSSDK: Warning: LogEOS: Error response received from backend. ServiceName=[Friend], OperationName=[GetBlockList], Url=[<Redacted>], HttpStatus=[403], ErrorCode=[errors.com.epicgames.common.insufficient_scopes], NumericErrorCode=[1056], ErrorMessage=[Insufficient access scopes. Expected: [friends_list]], CorrId=[EOS-gEPHGHOaqUCrG-5emBSvfg-XChfRBLeW0G9fARaGZxF7w]
+[2025.02.03-03.29.03:521][438]LogDerivedDataCache: C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.02.03-03.29.19:045][484]LogEOSSDK: Warning: LogHttp: 00000B70E97FAE00: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=83821B7D46C0183AFB9798B89E4644D5, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.02.03-03.29.19:045][485]LogEOSSDK: Warning: LogHttp: 00000B70E97FAE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.02.03-03.29.19:045][485]LogEOSSDK: Warning: LogHttp: 00000B70E97FAE00: libcurl info message cache 0 (Found bundle for host: 0xb70e7080c60 [serially])
+[2025.02.03-03.29.19:045][485]LogEOSSDK: Warning: LogHttp: 00000B70E97FAE00: libcurl info message cache 1 (Could not resolve host: api.epicgames.dev)
+[2025.02.03-03.29.19:045][485]LogEOSSDK: Warning: LogHttp: 00000B70E97FAE00: libcurl info message cache 2 (Closing connection)
+[2025.02.03-03.29.19:045][485]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=83821B7D46C0183AFB9798B89E4644D5
+[2025.02.03-03.29.20:098][487]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=83821B7D46C0183AFB9798B89E4644D5
+[2025.02.03-03.29.22:237][593]LogSlate: Took 0.000107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.02.03-03.29.31:549][672]LogEOSSDK: Warning: LogHttp: 00000B70E97FAE00: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=83821B7D46C0183AFB9798B89E4644D5, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.02.03-03.29.31:549][672]LogEOSSDK: Warning: LogHttp: 00000B70E97FAE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.02.03-03.29.31:549][673]LogEOSSDK: Warning: LogHttp: 00000B70E97FAE00: libcurl info message cache 3 (Found bundle for host: 0xb70e7080c60 [serially])
+[2025.02.03-03.29.31:549][673]LogEOSSDK: Warning: LogHttp: 00000B70E97FAE00: libcurl info message cache 4 (Could not resolve host: api.epicgames.dev)
+[2025.02.03-03.29.31:549][673]LogEOSSDK: Warning: LogHttp: 00000B70E97FAE00: libcurl info message cache 5 (Closing connection)
+[2025.02.03-03.29.31:549][673]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=83821B7D46C0183AFB9798B89E4644D5
+[2025.02.03-03.29.32:391][773]LogEOSSDK: Warning: LogHttp: 00000B70E97FEA00: invalid HTTP response code received. URL: https://api.epicgames.dev/epic/oauth/v2/tokenInfo, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.02.03-03.29.32:391][773]LogEOSSDK: Warning: LogHttp: 00000B70E97FEA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.02.03-03.29.32:391][774]LogEOSSDK: Warning: LogHttp: 00000B70E97FEA00: libcurl info message cache 0 (Found bundle for host: 0xb70e7080c60 [serially])
+[2025.02.03-03.29.32:391][774]LogEOSSDK: Warning: LogHttp: 00000B70E97FEA00: libcurl info message cache 1 (Could not resolve host: api.epicgames.dev)
+[2025.02.03-03.29.32:391][774]LogEOSSDK: Warning: LogHttp: 00000B70E97FEA00: libcurl info message cache 2 (Closing connection)
+[2025.02.03-03.29.32:391][774]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.02.03-03.29.32:399][774]LogEOSSDK: Error: LogEOSAuth: Ignoring failed attempt to verify active authentication session due to an unexpected error. Error: EOS_OperationWillRetry UserId: 231...cd1
+[2025.02.03-03.29.32:549][792]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=83821B7D46C0183AFB9798B89E4644D5
+[2025.02.03-03.29.32:558][793]LogEOSSDK: Warning: LogHttp: 00000B70E97FAE00: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=83821B7D46C0183AFB9798B89E4644D5, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.02.03-03.29.32:558][793]LogEOSSDK: Warning: LogHttp: 00000B70E97FAE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.02.03-03.29.32:558][793]LogEOSSDK: Warning: LogHttp: 00000B70E97FAE00: libcurl info message cache 6 (Found bundle for host: 0xb70e7080c60 [serially])
+[2025.02.03-03.29.32:558][793]LogEOSSDK: Warning: LogHttp: 00000B70E97FAE00: libcurl info message cache 7 (Could not resolve host: api.epicgames.dev)
+[2025.02.03-03.29.32:558][793]LogEOSSDK: Warning: LogHttp: 00000B70E97FAE00: libcurl info message cache 8 (Closing connection)
+[2025.02.03-03.29.32:558][793]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=83821B7D46C0183AFB9798B89E4644D5
+[2025.02.03-03.29.32:558][793]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[Metrics], OperationName=[SendBackendEvent], Url=[<Redacted>]
+[2025.02.03-03.29.33:067][854]LogEOSSDK: Warning: LogHttp: 00000B70E97FA800: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B3C730809-461D-47F3-BBA2-C3933FD21058%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.4-36651368%20-%20%2B%2BEOSSDK%2BRelease-1.16.4-CL-36651368&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.02.03-03.29.33:067][854]LogEOSSDK: Warning: LogHttp: 00000B70E97FA800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.02.03-03.29.33:067][854]LogEOSSDK: Warning: LogHttp: 00000B70E97FA800: libcurl info message cache 0 (Found bundle for host: 0xb70e7080c60 [serially])
+[2025.02.03-03.29.33:067][854]LogEOSSDK: Warning: LogHttp: 00000B70E97FA800: libcurl info message cache 1 (Re-using existing connection with host api.epicgames.dev)
+[2025.02.03-03.29.33:067][854]LogEOSSDK: Warning: LogHttp: 00000B70E97FA800: libcurl info message cache 2 (We are completely uploaded and fine)
+[2025.02.03-03.29.33:067][854]LogEOSSDK: Warning: LogHttp: 00000B70E97FA800: libcurl info message cache 3 (Recv failure: Connection was reset)
+[2025.02.03-03.29.33:067][854]LogEOSSDK: Warning: LogHttp: 00000B70E97FA800: libcurl info message cache 4 (OpenSSL SSL_read: Connection was reset, errno 10054)
+[2025.02.03-03.29.33:067][854]LogEOSSDK: Warning: LogHttp: 00000B70E97FA800: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.02.03-03.29.33:067][854]LogEOSSDK: Warning: LogHttp: 00000B70E97FA800: libcurl info message cache 6 (state.rewindbeforesend = TRUE)
+[2025.02.03-03.29.33:067][855]LogEOSSDK: Warning: LogHttp: 00000B70E97FA800: libcurl info message cache 7 (Closing connection)
+[2025.02.03-03.29.33:067][855]LogEOSSDK: Warning: LogHttp: 00000B70E97FA800: libcurl info message cache 8 (Recv failure: Connection was reset)
+[2025.02.03-03.29.33:067][855]LogEOSSDK: Warning: LogHttp: 00000B70E97FA800: libcurl info message cache 9 (Send failure: Connection was reset)
+[2025.02.03-03.29.33:067][855]LogEOSSDK: Warning: LogHttp: 00000B70E97FA800: libcurl info message cache 10 (Recv failure: Connection was reset)
+[2025.02.03-03.29.33:067][855]LogEOSSDK: Warning: LogHttp: 00000B70E97FA800: libcurl info message cache 11 (Issue another request to this URL: 'https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B3C730809-461D-47F3-BBA2-C3933FD21058%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.4-36651368%20-%20%2B%2BEOSSDK%2BRelease-1.16.4-CL-36651368&UserID=&AppEnvironment=Production&UploadType=sdkevents')
+[2025.02.03-03.29.33:067][855]LogEOSSDK: Warning: LogHttp: 00000B70E97FA800: libcurl info message cache 12 (Could not resolve host: api.epicgames.dev)
+[2025.02.03-03.29.33:067][855]LogEOSSDK: Warning: LogHttp: 00000B70E97FA800: libcurl info message cache 13 (Closing connection)
+[2025.02.03-03.29.33:067][855]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B3C730809-461D-47F3-BBA2-C3933FD21058%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.4-36651368%20-%20%2B%2BEOSSDK%2BRelease-1.16.4-CL-36651368&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.02.03-03.29.33:400][894]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.02.03-03.29.33:441][899]LogEOSSDK: Warning: LogHttp: 00000B70E97FEA00: invalid HTTP response code received. URL: https://api.epicgames.dev/epic/oauth/v2/tokenInfo, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.02.03-03.29.33:441][899]LogEOSSDK: Warning: LogHttp: 00000B70E97FEA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.02.03-03.29.33:441][900]LogEOSSDK: Warning: LogHttp: 00000B70E97FEA00: libcurl info message cache 3 (Could not resolve host: api.epicgames.dev)
+[2025.02.03-03.29.33:441][900]LogEOSSDK: Warning: LogHttp: 00000B70E97FEA00: libcurl info message cache 4 (Closing connection)
+[2025.02.03-03.29.33:441][900]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.02.03-03.29.33:450][900]LogEOSSDK: Error: LogEOSAuth: Ignoring failed attempt to verify active authentication session due to an unexpected error. Error: EOS_OperationWillRetry UserId: 231...cd1
+[2025.02.03-03.29.34:442][ 19]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.02.03-03.29.34:475][ 23]LogEOSSDK: Warning: LogHttp: 00000B70E97FEA00: invalid HTTP response code received. URL: https://api.epicgames.dev/epic/oauth/v2/tokenInfo, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.02.03-03.29.34:475][ 24]LogEOSSDK: Warning: LogHttp: 00000B70E97FEA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.02.03-03.29.34:475][ 24]LogEOSSDK: Warning: LogHttp: 00000B70E97FEA00: libcurl info message cache 5 (Could not resolve host: api.epicgames.dev)
+[2025.02.03-03.29.34:475][ 24]LogEOSSDK: Warning: LogHttp: 00000B70E97FEA00: libcurl info message cache 6 (Closing connection)
+[2025.02.03-03.29.34:475][ 24]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.02.03-03.29.34:483][ 24]LogEOSSDK: Error: LogEOSAuth: Ignoring failed attempt to verify active authentication session due to an unexpected error. Error: EOS_OperationWillRetry UserId: 231...cd1
+[2025.02.03-03.29.35:483][144]LogEOSSDK: Warning: LogHttp: Retry 3 on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.02.03-03.29.35:517][148]LogEOSSDK: Warning: LogHttp: 00000B70E97FEA00: invalid HTTP response code received. URL: https://api.epicgames.dev/epic/oauth/v2/tokenInfo, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.02.03-03.29.35:517][148]LogEOSSDK: Warning: LogHttp: 00000B70E97FEA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.02.03-03.29.35:517][149]LogEOSSDK: Warning: LogHttp: 00000B70E97FEA00: libcurl info message cache 7 (Could not resolve host: api.epicgames.dev)
+[2025.02.03-03.29.35:517][149]LogEOSSDK: Warning: LogHttp: 00000B70E97FEA00: libcurl info message cache 8 (Closing connection)
+[2025.02.03-03.29.35:517][149]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.02.03-03.29.35:525][149]LogEOSSDK: Error: LogEOSAuth: Ignoring failed attempt to verify active authentication session due to an unexpected error. Error: EOS_OperationWillRetry UserId: 231...cd1
+[2025.02.03-03.29.36:309][230]Running C:/Program Files/Epic Games/UE_5.5/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="C:/Users/User/Documents/GitHub/IceBreaker5/IceBreaker5/IceBreaker5.uproject" -game -rocket -progress
+[2025.02.03-03.29.36:420][230]Using bundled DotNet SDK version: 8.0.300
+[2025.02.03-03.29.36:420][230]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="C:/Users/User/Documents/GitHub/IceBreaker5/IceBreaker5/IceBreaker5.uproject" -game -rocket -progress
+[2025.02.03-03.29.36:622][230]Log file: C:\Users\User\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2025.02.03-03.29.37:025][230]
+[2025.02.03-03.29.37:025][230]Generating VisualStudio project files:
+[2025.02.03-03.29.37:025][230]Discovering modules, targets and source code for project...
+[2025.02.03-03.29.37:225][230]Available x64 toolchains (1):
+[2025.02.03-03.29.37:225][230] * C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433
+[2025.02.03-03.29.37:225][230]    (Family=14.42.34433, FamilyRank=1, Version=14.42.34436, Is64Bit=True, ReleaseChannel=Latest, Architecture=x64)
+[2025.02.03-03.29.37:225][230]Visual Studio 2022 compiler version 14.42.34436 is not a preferred version. Please use the latest preferred version 14.38.33130
+[2025.02.03-03.29.51:302][230]Binding IntelliSense data...
+[2025.02.03-03.30.00:457][230]Binding IntelliSense data... 100%
+[2025.02.03-03.30.00:457][230]Writing project files...
+[2025.02.03-03.30.02:264][230]Writing project files... 100%
+[2025.02.03-03.30.02:264][230]
+[2025.02.03-03.30.02:264][230]Generating QueryTargets data for editor...
+[2025.02.03-03.30.02:264][230]Total execution time: 25.82 seconds
+[2025.02.03-03.30.06:876][230]LogSlate: Window 'Message' being destroyed
+[2025.02.03-03.30.06:880][230]Message dialog closed, result: Ok, title: Message, text: Project now includes sources, please close the editor and build from your IDE.
+[2025.02.03-03.30.11:097][230]LogSlate: Window 'Message' being destroyed
+[2025.02.03-03.30.11:101][230]Message dialog closed, result: Yes, title: Message, text: Successfully added class 'StefanoCharacter', however you must recompile the 'IceBreaker5' module before it will appear in the Content Browser.
+
+Would you like to edit the code now?
+[2025.02.03-03.30.11:176][230]LogSlate: Window 'Add C++ Class' being destroyed
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display: ================================================
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display: Total job queries 1,321, among them cache hits 208 (15.75%), DDC hits 1,080 (81.76%), Duplicates 7 (0.53%)
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display: Tracking 1,106 distinct input hashes that result in 868 distinct outputs (78.48%)
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display: RAM used: 563.94 KiB of 3.10 GiB budget. Usage: 0.02%
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display: Shaders Compiled: 26
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display: Jobs assigned 26, completed 26 (100%)
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display: Time job spent in pending queue: average 0.12 s, longest 0.34 s
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display: Job execution time: average 0.57 s, max 1.28 s
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display: Job life time (pending + execution): average 0.69 s, max 1.34
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display: Shader code size: average 7.863 KiB, min 3.289 KiB, max 13.68 KiB
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.68 s
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display: Jobs were issued in 26 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display: Average processing rate: 15.50 jobs/sec
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display: Total thread time: 8.902 s
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display: Total thread preprocess time: 12.073 s
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display: Percentage time preprocessing: 135.62%
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display: Effective parallelization: 5.31 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    1 times, average 0.85 sec, max 0.85 sec, min 0.85 sec)
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    3 times, average 0.55 sec, max 0.58 sec, min 0.53 sec)
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    4 times, average 0.38 sec, max 0.43 sec, min 0.29 sec)
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    4 times, average 0.28 sec, max 0.33 sec, min 0.22 sec)
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display:                                                  FVelocityVS (compiled    1 times, average 0.28 sec, max 0.28 sec, min 0.28 sec)
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 18.70% of total time (compiled    3 times, average 0.55 sec, max 0.58 sec, min 0.53 sec)
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 16.99% of total time (compiled    4 times, average 0.38 sec, max 0.43 sec, min 0.29 sec)
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display:                                                 FLumenCardPS - 12.78% of total time (compiled    4 times, average 0.28 sec, max 0.33 sec, min 0.22 sec)
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 10.23% of total time (compiled    4 times, average 0.23 sec, max 0.25 sec, min 0.18 sec)
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display:                                                 FLumenCardVS - 10.14% of total time (compiled    4 times, average 0.23 sec, max 0.25 sec, min 0.20 sec)
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display: === Material stats ===
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display: Materials Translated:    134
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display: Material Total Translate Time: 0.07 s
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display: Material Translation Only: 0.03 s (40%)
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.02.03-03.30.11:180][230]LogShaderCompilers: Display: ================================================
+[2025.02.03-03.30.11:229][230]LogEOSSDK: Warning: LogHttp: Retry 4 on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.02.03-03.30.13:708][238]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.03-03.30.13:711][238]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.03-03.30.24:852][239]LogEOSSDK: Warning: LogHttp: 00000B70E97F7200: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B8A3324F7-470E-54ED-ACEA-4CA27EDADFB9%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.4-36651368%20-%20%2B%2BEOSSDK%2BRelease-1.16.4-CL-36651368&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.02.03-03.30.24:852][239]LogEOSSDK: Warning: LogHttp: 00000B70E97F7200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.02.03-03.30.24:852][239]LogEOSSDK: Warning: LogHttp: 00000B70E97F7200: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2025.02.03-03.30.24:852][239]LogEOSSDK: Warning: LogHttp: 00000B70E97F7200: libcurl info message cache 1 (Closing connection)
+[2025.02.03-03.30.24:852][239]LogEOSSDK: Warning: LogHttp: 00000B70E97FEA00: invalid HTTP response code received. URL: https://api.epicgames.dev/epic/oauth/v2/tokenInfo, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.02.03-03.30.24:852][239]LogEOSSDK: Warning: LogHttp: 00000B70E97FEA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.02.03-03.30.24:852][239]LogEOSSDK: Warning: LogHttp: 00000B70E97FEA00: libcurl info message cache 9 (Found bundle for host: 0xb70e7080480 [serially])
+[2025.02.03-03.30.24:852][239]LogEOSSDK: Warning: LogHttp: 00000B70E97FEA00: libcurl info message cache 10 (Could not resolve host: api.epicgames.dev)
+[2025.02.03-03.30.24:852][239]LogEOSSDK: Warning: LogHttp: 00000B70E97FEA00: libcurl info message cache 11 (Closing connection)
+[2025.02.03-03.30.24:852][239]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.02.03-03.30.24:852][239]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[OAuth], OperationName=[TokenInfov2], Url=[<Redacted>]
+[2025.02.03-03.30.24:855][240]LogEOSSDK: Error: LogEOSAuth: Ignoring failed attempt to verify active authentication session due to an unexpected error. Error: EOS_NoConnection UserId: 231...cd1
+[2025.02.03-03.30.24:855][240]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B8A3324F7-470E-54ED-ACEA-4CA27EDADFB9%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.4-36651368%20-%20%2B%2BEOSSDK%2BRelease-1.16.4-CL-36651368&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.02.03-03.31.18:530][401]LogEOSSDK: Warning: LogHttp: 00000B70E97FAE00: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B8A3324F7-470E-54ED-ACEA-4CA27EDADFB9%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.4-36651368%20-%20%2B%2BEOSSDK%2BRelease-1.16.4-CL-36651368&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.02.03-03.31.18:530][401]LogEOSSDK: Warning: LogHttp: 00000B70E97FAE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.02.03-03.31.18:531][401]LogEOSSDK: Warning: LogHttp: 00000B70E97FAE00: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2025.02.03-03.31.18:531][401]LogEOSSDK: Warning: LogHttp: 00000B70E97FAE00: libcurl info message cache 1 (Closing connection)
+[2025.02.03-03.31.18:531][401]LogEOSSDK: Warning: LogHttp: 00000B70E97FB400: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=83821B7D46C0183AFB9798B89E4644D5, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.02.03-03.31.18:531][401]LogEOSSDK: Warning: LogHttp: 00000B70E97FB400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.02.03-03.31.18:531][402]LogEOSSDK: Warning: LogHttp: 00000B70E97FB400: libcurl info message cache 0 (Found bundle for host: 0xb70e7080b70 [serially])
+[2025.02.03-03.31.18:531][402]LogEOSSDK: Warning: LogHttp: 00000B70E97FB400: libcurl info message cache 1 (Could not resolve host: api.epicgames.dev)
+[2025.02.03-03.31.18:531][402]LogEOSSDK: Warning: LogHttp: 00000B70E97FB400: libcurl info message cache 2 (Closing connection)
+[2025.02.03-03.31.18:531][402]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=83821B7D46C0183AFB9798B89E4644D5
+[2025.02.03-03.31.18:865][402]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B8A3324F7-470E-54ED-ACEA-4CA27EDADFB9%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.4-36651368%20-%20%2B%2BEOSSDK%2BRelease-1.16.4-CL-36651368&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.02.03-03.31.19:531][404]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=83821B7D46C0183AFB9798B89E4644D5
+[2025.02.03-03.31.31:198][439]LogEOSSDK: Warning: LogHttp: 00000B70E97FB400: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=83821B7D46C0183AFB9798B89E4644D5, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.02.03-03.31.31:198][439]LogEOSSDK: Warning: LogHttp: 00000B70E97FB400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.02.03-03.31.31:198][439]LogEOSSDK: Warning: LogHttp: 00000B70E97FB400: libcurl info message cache 3 (Could not resolve host: api.epicgames.dev)
+[2025.02.03-03.31.31:199][439]LogEOSSDK: Warning: LogHttp: 00000B70E97FB400: libcurl info message cache 4 (Closing connection)
+[2025.02.03-03.31.31:199][439]LogEOSSDK: Warning: LogHttp: 00000B70E97FA800: invalid HTTP response code received. URL: https://api.epicgames.dev/epic/oauth/v2/tokenInfo, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.02.03-03.31.31:199][440]LogEOSSDK: Warning: LogHttp: 00000B70E97FA800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.02.03-03.31.31:199][440]LogEOSSDK: Warning: LogHttp: 00000B70E97FA800: libcurl info message cache 0 (Found bundle for host: 0xb70e7080060 [serially])
+[2025.02.03-03.31.31:199][440]LogEOSSDK: Warning: LogHttp: 00000B70E97FA800: libcurl info message cache 1 (Could not resolve host: api.epicgames.dev)
+[2025.02.03-03.31.31:199][440]LogEOSSDK: Warning: LogHttp: 00000B70E97FA800: libcurl info message cache 2 (Closing connection)
+[2025.02.03-03.31.31:199][440]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=83821B7D46C0183AFB9798B89E4644D5
+[2025.02.03-03.31.31:199][440]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.02.03-03.31.31:532][440]LogEOSSDK: Error: LogEOSAuth: Ignoring failed attempt to verify active authentication session due to an unexpected error. Error: EOS_OperationWillRetry UserId: 231...cd1
+[2025.02.03-03.31.32:532][443]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=83821B7D46C0183AFB9798B89E4644D5
+[2025.02.03-03.31.32:532][444]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.02.03-03.31.32:864][444]LogEOSSDK: Warning: LogHttp: 00000B70E97FB400: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=83821B7D46C0183AFB9798B89E4644D5, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.02.03-03.31.32:864][444]LogEOSSDK: Warning: LogHttp: 00000B70E97FB400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.02.03-03.31.32:864][444]LogEOSSDK: Warning: LogHttp: 00000B70E97FB400: libcurl info message cache 5 (Could not resolve host: api.epicgames.dev)
+[2025.02.03-03.31.32:864][444]LogEOSSDK: Warning: LogHttp: 00000B70E97FB400: libcurl info message cache 6 (Closing connection)
+[2025.02.03-03.31.32:864][444]LogEOSSDK: Warning: LogHttp: 00000B70E97FA800: invalid HTTP response code received. URL: https://api.epicgames.dev/epic/oauth/v2/tokenInfo, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.02.03-03.31.32:864][444]LogEOSSDK: Warning: LogHttp: 00000B70E97FA800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.02.03-03.31.32:864][444]LogEOSSDK: Warning: LogHttp: 00000B70E97FA800: libcurl info message cache 3 (Found bundle for host: 0xb70e70800c0 [serially])
+[2025.02.03-03.31.32:864][444]LogEOSSDK: Warning: LogHttp: 00000B70E97FA800: libcurl info message cache 4 (Could not resolve host: api.epicgames.dev)
+[2025.02.03-03.31.32:864][444]LogEOSSDK: Warning: LogHttp: 00000B70E97FA800: libcurl info message cache 5 (Closing connection)
+[2025.02.03-03.31.32:864][444]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=83821B7D46C0183AFB9798B89E4644D5
+[2025.02.03-03.31.32:864][444]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[Metrics], OperationName=[SendBackendEvent], Url=[<Redacted>]
+[2025.02.03-03.31.32:864][445]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.02.03-03.31.33:198][445]LogEOSSDK: Error: LogEOSAuth: Ignoring failed attempt to verify active authentication session due to an unexpected error. Error: EOS_OperationWillRetry UserId: 231...cd1
+[2025.02.03-03.31.33:865][447]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.02.03-03.31.34:198][448]LogEOSSDK: Warning: LogHttp: 00000B70E97FA800: invalid HTTP response code received. URL: https://api.epicgames.dev/epic/oauth/v2/tokenInfo, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.02.03-03.31.34:198][449]LogEOSSDK: Warning: LogHttp: 00000B70E97FA800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.02.03-03.31.34:198][449]LogEOSSDK: Warning: LogHttp: 00000B70E97FA800: libcurl info message cache 6 (Could not resolve host: api.epicgames.dev)
+[2025.02.03-03.31.34:198][449]LogEOSSDK: Warning: LogHttp: 00000B70E97FA800: libcurl info message cache 7 (Closing connection)
+[2025.02.03-03.31.34:198][449]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.02.03-03.31.34:531][449]LogEOSSDK: Error: LogEOSAuth: Ignoring failed attempt to verify active authentication session due to an unexpected error. Error: EOS_OperationWillRetry UserId: 231...cd1
+[2025.02.03-03.31.35:200][451]LogEOSSDK: Warning: LogHttp: Retry 3 on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.02.03-03.31.35:532][452]LogEOSSDK: Warning: LogHttp: 00000B70E97FA800: invalid HTTP response code received. URL: https://api.epicgames.dev/epic/oauth/v2/tokenInfo, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.02.03-03.31.35:533][453]LogEOSSDK: Warning: LogHttp: 00000B70E97FA800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.02.03-03.31.35:533][453]LogEOSSDK: Warning: LogHttp: 00000B70E97FA800: libcurl info message cache 8 (Could not resolve host: api.epicgames.dev)
+[2025.02.03-03.31.35:533][453]LogEOSSDK: Warning: LogHttp: 00000B70E97FA800: libcurl info message cache 9 (Closing connection)
+[2025.02.03-03.31.35:533][453]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.02.03-03.31.35:866][453]LogEOSSDK: Error: LogEOSAuth: Ignoring failed attempt to verify active authentication session due to an unexpected error. Error: EOS_OperationWillRetry UserId: 231...cd1
+[2025.02.03-03.31.36:865][456]LogEOSSDK: Warning: LogHttp: Retry 4 on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.02.03-03.31.37:199][457]LogEOSSDK: Warning: LogHttp: 00000B70E97FA800: invalid HTTP response code received. URL: https://api.epicgames.dev/epic/oauth/v2/tokenInfo, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.02.03-03.31.37:199][457]LogEOSSDK: Warning: LogHttp: 00000B70E97FA800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.02.03-03.31.37:199][457]LogEOSSDK: Warning: LogHttp: 00000B70E97FA800: libcurl info message cache 10 (Could not resolve host: api.epicgames.dev)
+[2025.02.03-03.31.37:199][457]LogEOSSDK: Warning: LogHttp: 00000B70E97FA800: libcurl info message cache 11 (Closing connection)
+[2025.02.03-03.31.37:199][457]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/epic/oauth/v2/tokenInfo
+[2025.02.03-03.31.37:199][458]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[OAuth], OperationName=[TokenInfov2], Url=[<Redacted>]
+[2025.02.03-03.31.37:532][458]LogEOSSDK: Error: LogEOSAuth: Ignoring failed attempt to verify active authentication session due to an unexpected error. Error: EOS_NoConnection UserId: 231...cd1
+[2025.02.03-03.32.18:544][581]LogEOSSDK: Warning: LogHttp: 00000B70E97FD200: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B8A3324F7-470E-54ED-ACEA-4CA27EDADFB9%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.4-36651368%20-%20%2B%2BEOSSDK%2BRelease-1.16.4-CL-36651368&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.02.03-03.32.18:544][582]LogEOSSDK: Warning: LogHttp: 00000B70E97FD200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.02.03-03.32.18:544][582]LogEOSSDK: Warning: LogHttp: 00000B70E97FD200: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2025.02.03-03.32.18:544][582]LogEOSSDK: Warning: LogHttp: 00000B70E97FD200: libcurl info message cache 1 (Closing connection)
+[2025.02.03-03.32.18:877][582]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B8A3324F7-470E-54ED-ACEA-4CA27EDADFB9%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.4-36651368%20-%20%2B%2BEOSSDK%2BRelease-1.16.4-CL-36651368&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.02.03-03.33.14:221][748]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 367.496124
+[2025.02.03-03.33.16:554][755]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.03-03.33.16:554][755]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 369.496338, Update Interval: 358.965424
+[2025.02.03-03.35.29:684][163]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2025.02.03-03.35.29:695][163]LogStall: Shutdown...
+[2025.02.03-03.35.29:695][163]LogStall: Shutdown complete.
+[2025.02.03-03.35.29:704][163]LogSlate: Window 'IceBreaker5 - Unreal Editor' being destroyed
+[2025.02.03-03.35.29:764][163]Cmd: QUIT_EDITOR
+[2025.02.03-03.35.29:764][164]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.02.03-03.35.29:766][164]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.02.03-03.35.29:766][164]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.02.03-03.35.29:766][164]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.02.03-03.35.29:767][164]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.02.03-03.35.29:767][164]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.03-03.35.29:767][164]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2025.02.03-03.35.29:769][164]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.02.03-03.35.29:769][164]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.02.03-03.35.29:770][164]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.02.03-03.35.29:770][164]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.03-03.35.29:771][164]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.02.03-03.35.29:772][164]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2025.02.03-03.35.29:772][164]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2025.02.03-03.35.29:772][164]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2025.02.03-03.35.29:773][164]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.02.03-03.35.29:773][164]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.02.03-03.35.29:773][164]LogAudio: Display: Audio Device unregistered from world 'ThirdPersonMap'.
+[2025.02.03-03.35.29:773][164]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.02.03-03.35.29:773][164]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.02.03-03.35.29:774][164]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.02.03-03.35.29:779][164]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.02.03-03.35.29:779][164]LogAudio: Display: Audio Device Manager Shutdown
+[2025.02.03-03.35.29:779][164]LogWindowsTextInputMethodSystem: Activated input method: English (Australia) - (Keyboard).
+[2025.02.03-03.35.29:781][164]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.02.03-03.35.29:781][164]LogExit: Preparing to exit.
+[2025.02.03-03.35.29:792][164]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2025.02.03-03.35.30:174][164]LogEditorDataStorage: Deinitializing
+[2025.02.03-03.35.30:226][164]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.02.03-03.35.30:233][164]LogExit: Editor shut down
+[2025.02.03-03.35.30:234][164]LogExit: Transaction tracking system shut down
+[2025.02.03-03.35.30:285][164]LogExit: Object subsystem successfully closed.
+[2025.02.03-03.35.30:387][164]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.02.03-03.35.31:343][164]LogMemoryProfiler: Shutdown
+[2025.02.03-03.35.31:343][164]LogNetworkingProfiler: Shutdown
+[2025.02.03-03.35.31:343][164]LoadingProfiler: Shutdown
+[2025.02.03-03.35.31:343][164]LogTimingProfiler: Shutdown
+[2025.02.03-03.35.31:636][164]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.02.03-03.35.31:636][164]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2025.02.03-03.35.31:636][164]LogNFORDenoise: NFORDenoise function shutting down
+[2025.02.03-03.35.31:636][164]RenderDocPlugin: plugin has been unloaded.
+[2025.02.03-03.35.31:647][164]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.02.03-03.35.31:647][164]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE08B4288-44F8-50ED-7C0A-71A8CCB8D745%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.2-39378466%2B%2B%2BUE5%2BRelease-5.5&UserID=02af47ca44e4922e8dc685a6ebf5d341%7C2313247f143c4a898ea39063cdd9ccd1%7C4a3da465-dfba-4bf9-94d9-692ec10cd73c&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.02.03-03.35.31:647][164]LogHttp: Warning: 	Sleeping 0.500s to wait for 1 outstanding Http Requests.
+[2025.02.03-03.35.32:149][164]LogHttp: Warning: 	Sleeping 0.500s to wait for 1 outstanding Http Requests.
+[2025.02.03-03.35.35:173][164]LogEOSSDK: Warning: LogHttp: 00000B70E97F2400: request was cancelled
+[2025.02.03-03.35.35:173][164]LogEOSSDK: Warning: LogHttp: 00000B70E97F3000: request was cancelled
+[2025.02.03-03.35.35:184][164]LogEOSSDK: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.02.03-03.35.35:189][164]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.02.03-03.35.35:189][164]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.02.03-03.35.35:189][164]LogPakFile: Destroying PakPlatformFile
+[2025.02.03-03.35.35:318][164]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.02.03-03.35.35:348][164]LogExit: Exiting.
+[2025.02.03-03.35.35:376][164]Log file closed, 02/03/25 14:35:35
