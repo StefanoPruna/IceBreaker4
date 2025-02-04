@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-IceBreaker5.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\User\Documents\GitHub\IceBreaker4\IceBreaker5\Intermediate\Build\Win64\x64\IceBreaker5Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.obj"
+"C:\Users\User\Documents\GitHub\IceBreaker4\IceBreaker5\Intermediate\Build\Win64\x64\UnrealEditor\Development\IceBreaker5\IceBreaker5.init.gen.cpp.obj"
+"C:\Users\User\Documents\GitHub\IceBreaker4\IceBreaker5\Intermediate\Build\Win64\x64\UnrealEditor\Development\IceBreaker5\StefanoCharacter.gen.cpp.obj"
+"C:\Users\User\Documents\GitHub\IceBreaker4\IceBreaker5\Intermediate\Build\Win64\x64\UnrealEditor\Development\IceBreaker5\IceBreaker5.cpp.obj"
+"C:\Users\User\Documents\GitHub\IceBreaker4\IceBreaker5\Intermediate\Build\Win64\x64\UnrealEditor\Development\IceBreaker5\StefanoCharacter.cpp.obj"
+"C:\Users\User\Documents\GitHub\IceBreaker4\IceBreaker5\Intermediate\Build\Win64\x64\UnrealEditor\Development\IceBreaker5\PerModuleInline.gen.cpp.obj"
+"C:\Users\User\Documents\GitHub\IceBreaker4\IceBreaker5\Intermediate\Build\Win64\x64\UnrealEditor\Development\IceBreaker5\Default.rc2.res"
+/OUT:"C:\Users\User\Documents\GitHub\IceBreaker4\IceBreaker5\Intermediate\Build\Win64\x64\UnrealEditor\Development\IceBreaker5\UnrealEditor-IceBreaker5.lib"

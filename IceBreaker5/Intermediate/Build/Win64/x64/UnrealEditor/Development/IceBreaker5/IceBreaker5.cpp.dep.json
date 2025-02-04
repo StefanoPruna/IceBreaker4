@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\user\\documents\\github\\icebreaker4\\icebreaker5\\source\\icebreaker5\\icebreaker5.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\user\\documents\\github\\icebreaker4\\icebreaker5\\intermediate\\build\\win64\\x64\\icebreaker5editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "c:\\users\\user\\documents\\github\\icebreaker4\\icebreaker5\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\icebreaker5\\definitions.icebreaker5.h",
+            "c:\\users\\user\\documents\\github\\icebreaker4\\icebreaker5\\source\\icebreaker5\\icebreaker5.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
